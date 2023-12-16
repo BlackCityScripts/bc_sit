@@ -53,7 +53,7 @@ AddEventHandler('bc_sit:use', function(response)
             RequestAnimDict(animobj.dict)
             Wait(10)
         end
-        TaskPlayAnim(ped, animobj.dict, animobj.anim, 8.0, -8.0, -1, 0, 0, false, false, false)
+        TaskPlayAnim(ped, animobj.dict, animobj.anim, 8.0, -8.0, -1, 1, 0, false, false, false)
     end 
 
     CreateThread(function()
